@@ -1,5 +1,4 @@
 language: java
-install: 
-  - ant -Dplatforms.JDK_12.home=$JAVA_HOME jar
+script: ant -Dplatforms.JDK_12.home=$JAVA_HOME jar
 jdk:
   - oraclejdk12
