@@ -1,6 +1,5 @@
 language: java
 install: 
   - ant -Dplatforms.JDK_12.home=$JAVA_HOME jar
-  - ant default
 jdk:
   - oraclejdk12
