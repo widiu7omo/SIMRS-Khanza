@@ -4,4 +4,4 @@ jdk:
   - oraclejdk12
 
 script:
-  - ant -Dplatforms.JDK_12.home="~/oraclejdk12" jar
+  - ant -Dplatforms.JDK_12.home=~/oraclejdk12 jar
