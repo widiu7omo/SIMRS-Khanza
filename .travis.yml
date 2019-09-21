@@ -3,4 +3,4 @@ install: ant default
 jdk:
   - oraclejdk12
 script:
-  - ant -Dplatforms.JDK_12.home=JAVA_HOME jar
+  - ant -Dplatforms.JDK_12.home=$JAVA_HOME jar
